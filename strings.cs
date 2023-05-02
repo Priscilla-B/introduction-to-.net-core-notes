@@ -33,3 +33,15 @@ Console.WriteLine(sayHello);
 // changing the case of a string
 Console.WriteLine(sayHello.ToUpper());
 Console.WriteLine(sayHello.ToLower());
+
+// searching strings
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye"));
+// returns true
+Console.WriteLine(songLyrics.Contains("greetings"));
+// returns false
+
+Console.WriteLine(songLyrics.StartsWith("You say"));
+// check for existence of substring at beginning of string
+Console.WriteLine(songLyrics.EndsWith("say hello"));
+// check for existence of substring at end of string
