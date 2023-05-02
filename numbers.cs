@@ -47,3 +47,32 @@ Console.WriteLine($"The range of double is {min} to {max}");
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
 // doubles can have rounding errors just like floats in python
+
+
+// decimals have a smaller range, but greater 
+// precision(more decimal places) than the double
+decimal min2 = decimal.MinValue;
+decimal max2 = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min2} to {max2}");
+
+double a = 1.0;
+double b = 3.0;
+Console.WriteLine(a / b);
+// fewer decimal places
+
+decimal c = 1.0M;
+decimal d = 3.0M;
+Console.WriteLine(c / d);
+// more decimal places (precision)
+// the 'M' suffix indicates that a constant should 
+// use the 'decimal' type
+// 'M' was chosen because it's more visually distinct
+// compared to the keywords 'doucble' and 'decimal'
+
+// there's a long type, which is similar to integers, 
+// but has a larger range, so uses more memory
+long min3 = long.MinValue;
+long max3 = long.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min2} to {max2}");
+
+// there's also a 'short' number type
