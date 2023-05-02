@@ -10,4 +10,5 @@
 3. uses "$" for interpolated strings just like python would use "f"
 4. variables and methods use CamelCase
 5. integers have max and min values
+6. the semi-colon(;) character is expected after every line, unlike javascript where your program can run without it
 
