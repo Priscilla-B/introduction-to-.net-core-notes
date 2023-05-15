@@ -15,9 +15,17 @@ namespace CSLearningProject
             // "void" means the method does not return anything
             // string[] args represents a string array of arguments
         {
+            Console.WriteLine("*************************Branches*******************************");
             Branches branch = new Branches();
             branch.BranchText();
-         
+
+            Console.WriteLine("\n*************************Loops*******************************");
+            Loops loop = new Loops();
+            loop.LoopMain();
+
+            Console.WriteLine("\n*************************Collections*******************************");
+            Collections collection = new Collections();
+            collection.CollectionsMain();
 
         }
     }
