@@ -2,9 +2,9 @@ using System;
 
 namespace CSLearningProject
 {
-    class String
+    class StringNotes
     {
-        static void Main(string[] args)
+        static void MainString(string[] args)
         {
             string firstFriend = "Maria";
             // declaration of varible type as 'string' on assignment

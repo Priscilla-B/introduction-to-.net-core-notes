@@ -4,7 +4,7 @@ namespace CSLearningProject
 {
     class Numbers
     {
-        static void Main(string[] args)
+        static void MainNumbers(string[] args)
         {
             int a = 7;
             // declare variable type as int

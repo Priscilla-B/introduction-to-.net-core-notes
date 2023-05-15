@@ -11,4 +11,7 @@
 4. variables and methods use CamelCase
 5. integers have max and min values
 6. the semi-colon(;) character is expected after every line, unlike javascript where your program can run without it
+7. although indentations and curly braces can be used to format code, they're not required to make code run
 
+## C# Program Outline
+`using System`
