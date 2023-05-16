@@ -27,8 +27,11 @@ namespace MySuperBank
             catch (InvalidOperationException e)
             {
                 Console.WriteLine("Exception caught trying to overdraw");
-                Console.WriteLine(e.ToString());
+                // Console.WriteLine(e.ToString());
             }
+
+            // get account history
+            Console.WriteLine(account.GetAccountHistory());
             
 
             // test that initial balance is positive
@@ -39,7 +42,7 @@ namespace MySuperBank
             catch (ArgumentOutOfRangeException e)
             {
                 Console.WriteLine("Exception caught creating account with negative balance");
-                Console.WriteLine(e.ToString());
+                // Console.WriteLine(e.ToString());
             }
             
         }
