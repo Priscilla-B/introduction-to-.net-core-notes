@@ -14,6 +14,10 @@ namespace MySuperBank
             account.MakeWithdrawal(120, DateTime.Now, "Hammock");
             Console.WriteLine($"Account balance is {account.Balance}");
 
+            account.MakeWithdrawal(300, DateTime.Now, "Hair");
+            Console.WriteLine($"Account balance is {account.Balance}");
+
+
             // test for a negative balance
 
             try
