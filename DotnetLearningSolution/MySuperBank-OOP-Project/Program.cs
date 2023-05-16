@@ -14,7 +14,18 @@ namespace MySuperBank
             account.MakeWithdrawal(120, DateTime.Now, "Hammock");
             Console.WriteLine($"Account balance is {account.Balance}");
 
-            // account.MakeDeposit(-300, DateTime.Now, "Negative deposit");
+            // test for a negative balance
+
+            try
+            {
+                account.MakeWithdrawal(75000, DateTime.Now, "Negative deposit");
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("Exception caught trying to overdraw");
+                Console.WriteLine(e.ToString());
+            }
+            
 
             // test that initial balance is positive
             try
@@ -26,7 +37,7 @@ namespace MySuperBank
                 Console.WriteLine("Exception caught creating account with negative balance");
                 Console.WriteLine(e.ToString());
             }
-            Console.WriteLine("continue");
+            
         }
     }
 }
