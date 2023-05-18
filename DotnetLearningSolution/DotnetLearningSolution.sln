@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#LearningProject", "C#Lear
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySuperBank-OOP-Project", "MySuperBank-OOP-Project\MySuperBank-OOP-Project.csproj", "{446A54FF-7938-4B1F-BBF7-6CBFB83E0D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{94AA1066-DD32-49E9-B65E-7680A42EB2E0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{446A54FF-7938-4B1F-BBF7-6CBFB83E0D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446A54FF-7938-4B1F-BBF7-6CBFB83E0D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446A54FF-7938-4B1F-BBF7-6CBFB83E0D8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94AA1066-DD32-49E9-B65E-7680A42EB2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94AA1066-DD32-49E9-B65E-7680A42EB2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94AA1066-DD32-49E9-B65E-7680A42EB2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94AA1066-DD32-49E9-B65E-7680A42EB2E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
